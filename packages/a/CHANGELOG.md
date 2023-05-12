@@ -1,5 +1,17 @@
 # @bstu/monorepo-pkg-a
 
+## 3.0.2
+
+### Patch Changes
+
+- none
+
+## 3.0.1
+
+### Patch Changes
+
+- false
+
 ## 3.0.0
 
 ### Major Changes

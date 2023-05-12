@@ -7,7 +7,7 @@
     "watch": "pnpm --parallel -r run watch",
     "build": "pnpm -r run build",
     "changeset": "changeset",
-    "version": "changeset version",
+    "version": "pnpm changeset version",
     "release": "changeset publish --registry=https://npm.bstu.cn/"
   },
   "devDependencies": {
