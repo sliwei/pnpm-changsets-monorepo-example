@@ -1,6 +1,6 @@
 {
   "name": "pnpm-changsets-monorepo-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "A monorepo example with pnpm and changesets.",
   "scripts": {
