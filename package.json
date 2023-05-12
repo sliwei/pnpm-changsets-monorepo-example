@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "pnpm --parallel -r run watch",
     "build": "pnpm -r run build",
-    "changeset": "changeset",
+    "changeset": "pnpm changeset",
     "version": "pnpm changeset version",
     "release": "changeset publish --registry=https://npm.bstu.cn/"
   },

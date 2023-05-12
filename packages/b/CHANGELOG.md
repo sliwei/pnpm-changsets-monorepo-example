@@ -1,5 +1,13 @@
 # @bstu/monorepo-pkg-b
 
+## 2.0.2
+
+### Patch Changes
+
+- false to true
+- Updated dependencies
+  - @bstu/monorepo-pkg-a@3.0.3
+
 ## 2.0.1
 
 ### Patch Changes
