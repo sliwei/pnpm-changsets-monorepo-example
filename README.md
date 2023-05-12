@@ -25,6 +25,7 @@ git push
 
 ## 选择需要更新的包，选择patch、minor、minor严格遵循 semver（https://semver.org/） 规范
 > 进入 Prereleases 模式
+
 pnpm changeset pre enter alpha   # 发布 alpha 版本
 
 pnpm changeset pre enter beta    # 发布 beta 版本
