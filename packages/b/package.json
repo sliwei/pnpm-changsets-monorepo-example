@@ -1,12 +1,12 @@
 {
   "name": "@bstu/monorepo-pkg-b",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "dist/index.js",
   "files": [
     "dist"
   ],
   "dependencies": {
-    "@bstu/monorepo-pkg-a": "^1.0.0"
+    "@bstu/monorepo-pkg-a": "^2.0.0"
   },
   "devDependencies": {
     "typescript": "^4.9.4"

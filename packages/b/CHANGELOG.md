@@ -1,5 +1,19 @@
 # @bstu/monorepo-pkg-b
 
+## 2.0.0
+
+### Major Changes
+
+- c29117e:
+- c29117e: 1
+
+### Patch Changes
+
+- Updated dependencies [c29117e]
+- Updated dependencies
+- Updated dependencies [c29117e]
+  - @bstu/monorepo-pkg-a@2.0.0
+
 ## 1.0.0
 
 ### Major Changes
