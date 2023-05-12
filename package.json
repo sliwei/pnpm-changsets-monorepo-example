@@ -1,6 +1,6 @@
 {
   "name": "pnpm-changsets-monorepo-example",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "description": "A monorepo example with pnpm and changesets.",
   "scripts": {
@@ -11,8 +11,8 @@
     "release": "changeset publish"
   },
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "@changesets/cli": "^2.25.2"
+    "@changesets/cli": "^2.25.2",
+    "rimraf": "^3.0.2"
   },
   "packageManager": "pnpm@7.18.0",
   "license": "MIT"
