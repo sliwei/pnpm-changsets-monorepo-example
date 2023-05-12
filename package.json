@@ -8,12 +8,15 @@
     "build": "pnpm -r run build",
     "changeset": "changeset",
     "version": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish --registry=https://npm.bstu.cn/"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",
     "rimraf": "^3.0.2"
   },
   "packageManager": "pnpm@7.18.0",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.bstu.cn/"
+  }
 }

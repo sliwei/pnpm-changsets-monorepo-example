@@ -1,4 +1,10 @@
-# @luhengchang228/monorepo-pkg-a
+# @bstu/monorepo-pkg-a
+
+## 1.0.0
+
+### Major Changes
+
+- 11
 
 ## 0.1.1
 
