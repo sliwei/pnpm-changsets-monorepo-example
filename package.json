@@ -6,9 +6,13 @@
   "scripts": {
     "watch": "pnpm --parallel -r run watch",
     "build": "pnpm -r run build",
-    "changeset": "pnpm changeset",
-    "version": "pnpm changeset version",
-    "release": "changeset publish --registry=https://npm.bstu.cn/"
+    "alpha": "npx changeset pre enter alpha",
+    "beta": "npx changeset pre enter beta",
+    "rc": "npx changeset pre enter rc",
+    "changeset": "npx changeset",
+    "version": "npx changeset version",
+    "release": "npx changeset publish --registry=https://npm.bstu.cn/",
+    "exit": "npx changeset pre exit"
   },
   "devDependencies": {
     "@changesets/cli": "^2.25.2",

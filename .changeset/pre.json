@@ -1,0 +1,12 @@
+{
+  "mode": "exit",
+  "tag": "beta",
+  "initialVersions": {
+    "@bstu/monorepo-pkg-a": "3.0.3",
+    "@bstu/monorepo-pkg-b": "2.0.2",
+    "@bstu/monorepo-pkg-c": "2.0.0"
+  },
+  "changesets": [
+    "soft-ears-perform"
+  ]
+}

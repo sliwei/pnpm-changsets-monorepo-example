@@ -1,19 +1,21 @@
 
 # 正式版本
 
-## 选择需要更新的包，选择patch、minor、minor严格遵循 semver（https://semver.org/） 规范
-pnpm changeset
+### 1、修改代码
 
-## 然后执行 pnpm changeset version 修改包的版本
-pnpm changeset version
+### 2、选择需要更新的包，选择patch、minor、minor严格遵循 semver（https://semver.org/） 规范
+npx changeset
 
-## 打包
-pnpm build
+### 3、然后执行 npx changeset version 修改包的版本
+npx changeset version
 
-## 推送
-pnpm changeset publish
+### 4、打包
+yarn build
 
-## 提交代码
+### 5、推送
+npx changeset publish
+
+### 6、提交代码
 git add .
 
 git commit -m "xxx"
@@ -23,30 +25,17 @@ git push
 
 # alpha/beta/rc版本
 
-## 选择需要更新的包，选择patch、minor、minor严格遵循 semver（https://semver.org/） 规范
-> 进入 Prereleases 模式
+### 1、进入 Prereleases 模式
 
-pnpm changeset pre enter alpha   # 发布 alpha 版本
+npx changeset pre enter alpha   # 发布 alpha 版本
 
-pnpm changeset pre enter beta    # 发布 beta 版本
+npx changeset pre enter beta    # 发布 beta 版本
 
-pnpm changeset pre enter rc      # 发布 rc 版本
+npx changeset pre enter rc      # 发布 rc 版本
 
-## 然后执行 pnpm changeset version 修改包的版本
-pnpm changeset version
+### 执行正式版本的步骤
 
-## 打包
-pnpm build
+> 正式版本1~6步骤
 
-## 推送
-pnpm changeset publish
-
-## 退出 Prereleases 模式
-pnpm changeset pre exit
-
-## 提交代码
-git add .
-
-git commit -m "xxx"
-
-git push
+### 2、退出 Prereleases 模式
+npx changeset pre exit
